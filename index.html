@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogVerse - Express Yourself</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav id="main-nav">
+            <div class="logo">
+                <h1>Blog<span>Verse</span></h1>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="auth-links" id="login-link"><a href="login.html">Login</a></li>
+                <li class="auth-links" id="signup-link"><a href="signup.html">Sign Up</a></li>
+                <li class="auth-links hidden" id="dashboard-link"><a href="dashboard.html">Dashboard</a></li>
+                <li class="auth-links hidden" id="logout-link"><a href="#">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Share Your Story With The World</h1>
+                <p>Create, share, and discover amazing content on our vibrant blogging platform.</p>
+                <div class="cta-buttons">
+                    <a href="signup.html" class="btn btn-primary">Get Started</a>
+                    <a href="explore.html" class="btn btn-secondary">Explore Posts</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-posts">
+            <h2>Featured Posts</h2>
+            <div class="posts-grid" id="featured-posts-container">
+                
+                <div class="post-card">
+                    <div class="post-img placeholder"></div>
+                    <div class="post-content">
+                        <h3>Welcome to BlogVerse</h3>
+                        <p class="post-excerpt">Getting started with our vibrant blogging community is easy! Learn how to make the most of our platform.</p>
+                        <div class="post-meta">
+                            <span class="author">Admin</span>
+                            <span class="date">April 15, 2025</span>
+                        </div>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+                
+                <div class="post-card">
+                    <div class="post-img placeholder"></div>
+                    <div class="post-content">
+                        <h3>Top Writing Tips</h3>
+                        <p class="post-excerpt">Improve your writing skills with these professional tips from experienced bloggers.</p>
+                        <div class="post-meta">
+                            <span class="author">WritingCoach</span>
+                            <span class="date">April 10, 2025</span>
+                        </div>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-img placeholder"></div>
+                    <div class="post-content">
+                        <h3>Design Your Blog</h3>
+                        <p class="post-excerpt">Learn how to customize your blog profile and make your content stand out.</p>
+                        <div class="post-meta">
+                            <span class="author">DesignGuru</span>
+                            <span class="date">April 5, 2025</span>
+                        </div>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <h2>Why Choose BlogVerse?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-pen-fancy"></i>
+                    <h3>Easy Content Creation</h3>
+                    <p>User-friendly editor that lets you focus on your writing without distractions.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Vibrant Community</h3>
+                    <p>Connect with like-minded writers and build your audience.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Your blog looks great on any device - desktop, tablet, or mobile.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-comments"></i>
+                    <h3>Interactive Comments</h3>
+                    <p>Engage with your readers through our dynamic comment section.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>About BlogVerse</h2>
+                <p>A platform for writers to express themselves and connect with readers around the world.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="explore.html">Explore</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contact Us</h2>
+                <p><i class="fas fa-envelope"></i> rastogisarthak84@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +91 9311206668</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 BlogVerse. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
